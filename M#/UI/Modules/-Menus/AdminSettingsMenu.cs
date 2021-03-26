@@ -24,6 +24,14 @@ namespace Modules
 
             Item("Content blocks")
                 .OnClick(x => x.Go<Admin.Settings.ContentBlocksPage>());
+
+            Item("Countries")
+                .Icon(FA.Cog)
+                .OnClick(x => x.Go<Country.CountriesPage>());
+
+            Item("Customers")
+                .Icon(FA.Cog)
+                .OnClick(x => x.Go<Customer.CustomersPage>());
         }
     }
 }

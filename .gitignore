@@ -168,3 +168,7 @@ M#/lib/*
 M#/lib/netcoreapp*/*
 !M#/lib/netcoreapp*/MSharp.DSL.runtimeconfig.json
 M#/UI/SchemaExtensions.cs
+
+
+*/@Temp.File.Uploads
+*/Blob
